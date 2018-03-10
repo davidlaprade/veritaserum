@@ -91,7 +91,7 @@ defmodule VeritaserumTest do
   end
 
   describe "when irrelevant word has booster" do
-    @text "I really buy Veritaserum"
+    @text "I really make Veritaserum"
 
     test "the booster does not affect the value of the next word" do
       assert analyze(@text) == 0
